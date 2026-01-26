@@ -81,9 +81,9 @@ export const BlogDetail: React.FC<BlogDetailProps> = ({ post, onBack }) => {
           <span className="text-premium-gold text-xs uppercase tracking-widest mb-4 inline-block">
             {post.category}
           </span>
-          <h1 className="font-serif text-4xl md:text-6xl text-white mb-6 leading-tight">
+          <h2 className="font-serif text-4xl md:text-6xl text-white mb-6 leading-tight">
             {post.title}
-          </h1>
+          </h2>
           
           {/* Meta Info */}
           <div className="flex flex-wrap items-center gap-6 text-premium-silver/60 text-sm border-t border-b border-premium-white/10 py-4">

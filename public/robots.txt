@@ -1,0 +1,6 @@
+# GovConnect – allow indexing, point to sitemap
+User-agent: *
+Allow: /
+
+# Sitemap (replace with your production URL if different)
+Sitemap: https://govconnect.consulting/sitemap.xml

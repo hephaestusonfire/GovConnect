@@ -3,8 +3,96 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
-    <title>GovConnect | Strategic Alliances</title>
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Primary Meta Tags - SEO -->
+    <title>GovConnect | Government Consultancy, Compliance & Sustainability – India</title>
+    <meta name="title" content="GovConnect | Government Consultancy, Compliance & Sustainability – India" />
+    <meta name="description" content="GovConnect bridges corporates, startups and the Indian government. Strategic partnerships, regulatory compliance, environmental clearances, ESIA, forest clearances & policy advocacy. Delhi, Bangalore, Lucknow, Gwalior." />
+    <meta name="keywords" content="government consultancy India, regulatory compliance India, environmental compliance, forest clearance, ESIA, policy advocacy, government partnerships, corporate compliance, sustainability consultancy, All Compliances Solutions" />
+    <meta name="author" content="GovConnect – An initiative of All Compliances Solutions" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="geo.region" content="IN" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <link rel="canonical" href="https://govconnect.consulting/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://govconnect.consulting/" />
+    <meta property="og:title" content="GovConnect | Bridging Governance, Compliance & Sustainability" />
+    <meta property="og:description" content="Strategic consultancy connecting corporates and startups with the Indian government. Compliance, clearances, ESG and policy advocacy across India." />
+    <meta property="og:image" content="https://govconnect.consulting/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="GovConnect – Government Consultancy, Compliance & Sustainability" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:site_name" content="GovConnect" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://govconnect.consulting/" />
+    <meta name="twitter:title" content="GovConnect | Government Consultancy & Compliance – India" />
+    <meta name="twitter:description" content="Strategic partnerships, regulatory compliance and sustainability consultancy. Bridging corporates, startups and the Indian government." />
+    <meta name="twitter:image" content="https://govconnect.consulting/og-image.png" />
+
+    <!-- Theme & Mobile -->
+    <meta name="theme-color" content="#020617" />
+    <meta name="msapplication-TileColor" content="#020617" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Structured Data - JSON-LD for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://govconnect.consulting/#organization",
+          "name": "GovConnect",
+          "alternateName": "GovConnect Consulting",
+          "url": "https://govconnect.consulting/",
+          "logo": { "@type": "ImageObject", "url": "https://govconnect.consulting/favicon.ico" },
+          "description": "Strategic consultancy bridging the gap between corporates, startups and the Indian government. Governance, compliance and sustainability.",
+          "email": "YES@AllCompliances.com",
+          "parentOrganization": { "@type": "Organization", "name": "All Compliances Solutions" },
+          "taxID": "09ACKPV7887L1ZA",
+          "address": [
+            { "@type": "PostalAddress", "addressLocality": "Delhi", "addressRegion": "Delhi", "addressCountry": "IN" },
+            { "@type": "PostalAddress", "addressLocality": "Bangalore", "addressRegion": "Karnataka", "addressCountry": "IN" },
+            { "@type": "PostalAddress", "addressLocality": "Lucknow", "addressRegion": "Uttar Pradesh", "addressCountry": "IN" },
+            { "@type": "PostalAddress", "addressLocality": "Gwalior", "addressRegion": "Madhya Pradesh", "addressCountry": "IN" }
+          ],
+          "areaServed": { "@type": "Country", "name": "India" }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://govconnect.consulting/#website",
+          "url": "https://govconnect.consulting/",
+          "name": "GovConnect",
+          "description": "Government consultancy, compliance and sustainability – India.",
+          "publisher": { "@id": "https://govconnect.consulting/#organization" },
+          "inLanguage": "en-IN",
+          "potentialAction": { "@type": "SearchAction", "target": "https://govconnect.consulting/#services", "query-input": "required name=search_term_string" }
+        },
+        {
+          "@type": "ProfessionalService",
+          "name": "GovConnect",
+          "image": "https://govconnect.consulting/og-image.png",
+          "url": "https://govconnect.consulting/",
+          "telephone": "+91-8004567000",
+          "email": "YES@AllCompliances.com",
+          "address": { "@type": "PostalAddress", "addressLocality": "Delhi", "addressRegion": "Delhi", "addressCountry": "IN" },
+          "priceRange": "Consultation",
+          "openingHours": "Mo-Fr 09:00-18:00",
+          "areaServed": "IN",
+          "serviceType": ["Government Partnerships", "Regulatory Compliance", "Environmental Compliance", "ESIA", "Forest Clearances", "Policy Advocacy", "Cybersecurity", "Cyber Forensics"]
+        }
+      ]
+    }
+    </script>
+
     <!-- Fonts: Playfair Display (Editorial) & Manrope (Technical) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -97,6 +185,36 @@
       @media (max-width: 640px) {
         .marquee-inner { animation-duration: 45s; }
       }
+
+      /* Skip link: visible on focus for a11y & SEO */
+      .skip-link {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        z-index: 9999;
+      }
+      .skip-link:focus {
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        width: auto;
+        height: auto;
+        padding: 0.75rem 1rem;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+        background: #d4af37;
+        color: #020617;
+        font-weight: 700;
+        border-radius: 0.25rem;
+        text-decoration: none;
+      }
     </style>
   <script type="importmap">
 {
@@ -109,9 +227,10 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+<link rel="icon" href="/favicon.ico" sizes="any" />
 </head>
   <body>
+    <a href="#home" class="skip-link">Skip to main content</a>
     <div class="noise-overlay"></div>
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>

@@ -76,6 +76,18 @@ GovConnect/
 
 ---
 
+## Production & SEO
+
+The site is production-ready. The build outputs to `dist/` with:
+
+- **SEO:** Meta tags, Open Graph, Twitter Card, canonical URL, JSON-LD (Organization, WebSite, ProfessionalService)
+- **Indexing:** `robots.txt` and `sitemap.xml` in `public/` (copied to `dist/`), pointing to `https://govconnect.consulting/`
+- **Assets:** Favicon at `public/favicon.ico`; optional: add `public/og-image.png` (1200×630) for social previews
+
+After deploy, submit `https://govconnect.consulting/sitemap.xml` in Google Search Console and request indexing for the homepage.
+
+---
+
 ## License
 
 Proprietary — GovConnect / All Compliances Solutions.

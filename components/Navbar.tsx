@@ -43,7 +43,8 @@ export const Navbar: React.FC = () => {
 
   return (
     <>
-      <motion.nav 
+      <motion.nav
+        aria-label="Main navigation"
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
