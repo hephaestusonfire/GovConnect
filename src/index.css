@@ -1,0 +1,26 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand-black: #0a0a0a;
+  --color-brand-white: #fcfcfc;
+  --color-brand-accent: #cda434; /* Sophisticated gold/bronze */
+}
+
+@layer base {
+  body {
+    @apply bg-brand-black text-brand-white font-sans antialiased selection:bg-brand-accent selection:text-black;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .font-satoshi {
+    font-family: 'Satoshi', sans-serif;
+  }
+}
+
